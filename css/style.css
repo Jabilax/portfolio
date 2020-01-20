@@ -81,11 +81,13 @@ header .container .banner-text{
 
 header .container .banner-text h3{
     font: normal  3rem var(--font);
+    font-size: 3rem;
     font-weight: 400;
 }
 
 header .container .banner-text h1{
     font: normal 5rem var(--font);
+    font-size: 5rem;
     margin-left: -1rem;
     margin-bottom: 1rem;
     font-weight: 600;
@@ -93,6 +95,7 @@ header .container .banner-text h1{
 
 header .container .banner-text h4{
     font: normal 1.5rem var(--font);
+    font-size: 1.5rem;
     margin-left: 2rem;
     font-weight: 400;
     margin-bottom: 2rem;
@@ -102,7 +105,6 @@ header .container .site-icons{
     /* font: normal 1rem var(--font); */
     font-size: 2.5rem;
     margin-left: 4.5rem;
-    /* box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2); */
     letter-spacing: 0.3rem;
 }
 
@@ -146,6 +148,7 @@ header .container .banner-portrait > img{
 .site-main .about-area .about-title h2 > span{
     display: block;
     font: normal bold 49px/ 60px var(--font);
+    font-size: 49px/ 60px;
     letter-spacing: 8px;
 }
 
@@ -172,6 +175,7 @@ header .container .banner-portrait > img{
 .site-main .games-area .games-title h1{
     padding: 4rem;
     font: normal 6rem times;
+    font-size: 6rem;
     letter-spacing: 10px;
 
     background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
@@ -201,6 +205,7 @@ header .container .banner-portrait > img{
 
 .site-main .projects-area .projects-title h2{
     font: normal bold 30px/ 60px var(--font);
+    font-size: 30px/ 60px;
     padding: 4rem;
     letter-spacing: 5px;
     margin: 0;
