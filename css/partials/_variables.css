@@ -1,0 +1,32 @@
+/* CSS Variables */ 
+:root{
+
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "lobster", cursive;
+
+
+
+    --primary-color: #4458dc;
+    --primary-color2: #854fee;
+    --title-color: #141313;
+    --text-color: #777777;  
+    --border-color: #201f1f17;  
+    --light-black: #2e2c2caf;  
+    --light-gray: rgba(255, 255, 255, 0.877);
+
+
+    --secondary-gradient-color: linear-gradient(90deg, #c99ae4 0%, #e9b8ff 100%);
+    --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
+    --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+
+    --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    --bggradient: linear-gradient(to bottom, #4458dc, #854fee);
+    --bggradient2: linear-gradient(to bottom, #dd2476, #ff512f);
+    --bggradient3: linear-gradient(to bottom, #131416, #251a3d);
+   
+
+    /* font family variables. */ 
+    --font: 'helvetica', cursive;
+} 

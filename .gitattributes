@@ -1,0 +1,6 @@
+#define binary files
+*.png binary
+*.jpg binary
+*.pdf binary
+*.eot binary
+*.ttf binary
