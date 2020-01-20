@@ -1,5 +1,5 @@
-/* import fonts from fonts.css file */ 
-@import url(./fonts.css);
+/* import font from google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
 
 /* import variabels */ 
 @import url(./partials/_variables.css);
