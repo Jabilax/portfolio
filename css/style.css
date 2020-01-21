@@ -59,7 +59,7 @@ header .row .col-md-5 img {
 
 
 
-/* start banner area */
+/* start top area */
 header {
     background-image: url(../img/bg-header.jpg);
     background-size: 2000px;
@@ -74,18 +74,18 @@ header .container{
     max-width: 100rem;
 }
 
-header .container .banner-text{
+header .container .top-text{
     padding-left: 3%;
     padding-top: 13%;
 }
 
-header .container .banner-text h3{
+header .container .top-text h3{
     font: normal  3rem var(--font);
     font-size: 3rem;
     font-weight: 400;
 }
 
-header .container .banner-text h1{
+header .container .top-text h1{
     font: normal 5rem var(--font);
     font-size: 5rem;
     margin-left: -1rem;
@@ -93,7 +93,7 @@ header .container .banner-text h1{
     font-weight: 600;
 }
 
-header .container .banner-text h4{
+header .container .top-text h4{
     font: normal 1.5rem var(--font);
     font-size: 1.5rem;
     margin-left: 2rem;
@@ -118,7 +118,7 @@ header .container .site-icons a:hover{
 
 
 
-header .container .banner-portrait > img{
+header .container .top-portrait > img{
     width: 85%;
     height: auto;
 
@@ -126,7 +126,7 @@ header .container .banner-portrait > img{
     bottom: 0;
     right: 0rem;
 }
-/* end banner area */ 
+/* end top area */ 
 
 
 
