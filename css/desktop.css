@@ -74,35 +74,31 @@
 
     header .container .top-text{
         padding-left: 3%;
-        padding-top: 13%;
+        padding-top: 200px;
     }
 
     header .container .top-text h3{
-        font: normal  3rem var(--font);
-        font-size: 3rem;
-        font-weight: 400;
+        font: normal 40px var(--font);
+        font-weight: 300;
     }
 
     header .container .top-text h1{
-        font: normal 5rem var(--font);
-        font-size: 5rem;
-        margin-left: -1rem;
-        margin-bottom: 1rem;
+        font: normal 80px var(--font);
+        margin-left: -1.0vw;
+        margin-bottom: 20px;
         font-weight: 600;
     }
 
     header .container .top-text h4{
-        font: normal 1.5rem var(--font);
-        font-size: 1.5rem;
-        margin-left: 2rem;
+        font: normal 26px var(--font);
+        margin-left: 1.0vw;
         font-weight: 400;
         margin-bottom: 2rem;
     }
 
     header .container .site-icons{
-        /* font: normal 1rem var(--font); */
-        font-size: 2.5rem;
-        margin-left: 4.5rem;
+        font: normal 48px var(--font); 
+        margin-left: 2.4vw;
         letter-spacing: 0.3rem;
     }
 
@@ -115,7 +111,7 @@
     }
   
     header .container .top-portrait > img{
-        width: 85%;
+        width: 650px;
         height: auto;
 
         position: absolute;
@@ -151,9 +147,7 @@
     .site-main .about-area .about-title .paragraph > p{
         padding: .4rem 0;
     }
-
     /* end about area */ 
-
 
 
 
@@ -181,7 +175,6 @@
         text-transform: uppercase;
 
         font-size: 120px;
-        font-size: 6.6vi;
         letter-spacing: 10px;
         font-weight: 400;
         margin: 0;
@@ -229,27 +222,8 @@
       color: white;
     }
 
-    footer input {
-      border: none !important;
-    }
-
-    footer input::placeholder {
-      color: white !important;
-    }
-
-    footer .input-group .input-group-text {
-      background: var(--bggradient);
-      border: none;
-    }
-
     footer .column i {
       color: white;
-    }
-
-    /* it is adjacent sibling combinator */
-
-    footer .column i + i {
-      padding: 0 0.5em;
     }
 
     .sticky {
