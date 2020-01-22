@@ -5,7 +5,7 @@
 @import url(../css/global.css);
 
 /* mobile style */
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
     html, body{
         margin: 0%;
         box-sizing: border-box;
@@ -39,19 +39,6 @@
     header .nav-link:hover {
         color: black;
     }
-
-    header .row .col-md-7 {
-        /* padding: 22vmin 1vmin; */
-        /* padding-bottom: 35vmin; */
-    }
-
-    header .row .col-md-5 {
-        /* padding: 4.2vmin 1vmin; */
-    }
-
-    header .row .col-md-5 img {
-        width: 90%;
-    }
     /* end navigation area*/
 
 
@@ -65,7 +52,7 @@
     }
 
     header .container .row{
-        height: 55vh;
+        height: 70vh;
     }
 
     header .container{
@@ -112,10 +99,10 @@
     }
   
     header .container .top-portrait > img{
-        margin-top: 27.5vh;
+        margin-top: 37.0vh;
         width: 60%;
         height: auto;
-        margin-left: 12vw;
+        margin-left: 15vw;
 
         position: absolute;
         z-index: 0;

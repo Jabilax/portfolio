@@ -5,7 +5,7 @@
 @import url(../css/global.css);
 
 /* desktop style */
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
     html, body{
         margin: 0%;
         box-sizing: border-box;
