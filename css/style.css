@@ -170,19 +170,20 @@ header .container .top-portrait > img{
 }
 
 .site-main .games-area .games-title h1{
-    padding: 4rem;
-    font: normal 6rem times;
-    font-size: 6rem;
-    letter-spacing: 10px;
-
+    padding: 4rem 0;
+    font-family: times, cursive;
+    
     background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: goldenrod;
-	  text-transform: uppercase;	
-	  font-size: 120px;
-    margin: 0;
+    text-transform: uppercase;
+    	
+    font-size: 120px;
+    font-size: 6.6vi;
+    letter-spacing: 10px;
     font-weight: 400;
+    margin: 0;
 }
 
 .site-main .games-area .row .img{
@@ -190,9 +191,6 @@ header .container .top-portrait > img{
     text-align: center;
 }
 /* end games area */ 
-
-
-
 
 
 /* start projects area */ 
