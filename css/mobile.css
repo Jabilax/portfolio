@@ -1,0 +1,260 @@
+/* import variables */ 
+@import url(../css/variables.css);
+
+/* import global styling */ 
+@import url(../css/global.css);
+
+/* mobile style */
+@media only screen and (max-width: 400px){
+    html, body{
+        margin: 0%;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* start navigation area */ 
+    header, section {
+        /* overflow-x: hidden; */
+    }
+
+    header a {
+        font-family: var(--font);
+        font-size: 32px;
+        color: var(--light-black);
+    }
+
+    header .nav-item:last-child {
+        /* padding-right: 10.5em; */
+    }
+
+    header .nav-item {
+        /* padding: 0.9em; */
+    }
+
+    header .navbar-brand {
+        /* padding-left: 8rem; */
+    }
+
+    header .nav-link:hover {
+        color: black;
+    }
+
+    header .row .col-md-7 {
+        /* padding: 22vmin 1vmin; */
+        /* padding-bottom: 35vmin; */
+    }
+
+    header .row .col-md-5 {
+        /* padding: 4.2vmin 1vmin; */
+    }
+
+    header .row .col-md-5 img {
+        width: 90%;
+    }
+    /* end navigation area*/
+
+
+
+
+    /* start top area */
+    header {
+        background-image: url(../img/bg-header.jpg);
+        background-size: 2000px;
+        background-position: center;
+    }
+
+    header .container .row{
+        height: 55vh;
+    }
+
+    header .container{
+        /* max-width: 100rem; */
+    }
+
+    header .container .top-text{
+        /* padding-left: 3%; */
+        /* padding-top: 13%; */
+    }
+
+    header .container .top-text h3{
+        font: normal 30px var(--font);
+        font-weight: 100;
+        margin-left: 5%;
+    }
+
+    header .container .top-text h1{
+        font: normal 45px var(--font);
+        margin-left: 10%;
+        font-weight: 600;
+    }
+
+    header .container .top-text h4{
+        font: normal 20px var(--font);
+        margin-left: 10%;
+        font-weight: 400;
+        margin-bottom: 2vh;
+    }
+
+    header .container .site-icons{
+        font: normal 1rem var(--font); 
+        margin-left: 16%;
+        letter-spacing: 0.4rem;
+        margin-bottom: 27vh;
+    }
+
+    header .container .site-icons a{
+      color: #212529;
+    }
+
+    header .container .site-icons a:hover{
+      color: var(--primary-color);
+    }
+  
+    header .container .top-portrait > img{
+        margin-top: 27.5vh;
+        width: 60%;
+        height: auto;
+        margin-left: 12vw;
+
+        position: absolute;
+        z-index: 0;
+    }
+    /* end top area */ 
+
+
+
+
+    /* start about area */ 
+    .site-main .about-area .container-fluid .row{
+        padding: 12% 8%;
+    }
+
+    .site-main .about-area .about-title{
+        padding-right: 0rem;
+        padding-left: 15%;
+    }
+
+    .site-main .about-area .about-title > button{
+        margin-left: 3rem;
+    }
+
+    .site-main .about-area .about-title h2 > span{
+        display: block;
+        font: normal bold 30px/ 60px var(--font);
+        letter-spacing: 8px;
+    }
+
+    .site-main .about-area .about-title .paragraph > p{
+        font: normal 10px / 14px var(--font);
+    }
+
+    /* end about area */ 
+
+
+
+
+
+    /* start games area */ 
+    .site-main .games-area {
+        background: black;
+        /* fallback for old browsers */
+        background-image: url(../img/bg-games.jpg);
+
+        background-size: 4000px;
+        background-position: center;
+        color: whitesmoke;
+        padding-bottom: 3vh;
+    }
+
+    .site-main .games-area .games-title h1{
+        padding: 2vh 0;
+        font-family: times, cursive;
+
+        background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: goldenrod;
+        text-transform: uppercase;
+
+        font-size: 60px;
+        font-size: 6.6vi;
+        letter-spacing: 5px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .site-main .games-area .row .img{
+        box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+        text-align: center;
+    }
+    /* end games area */ 
+
+
+
+    /* start projects area */ 
+    .site-main .projects-area {
+
+    }
+
+    .site-main .projects-area .projects-title h2{
+        font: normal bold 20px/ 30px var(--font);
+        padding: 5vh 0;
+        letter-spacing: 5px;
+        margin: 0;
+        font-weight: 600;
+    }
+    /* end projects area */ 
+
+
+
+
+
+    /* start footer area */ 
+    footer {
+        background: rgba(0, 0, 0, 0.815);
+        overflow-x: hidden;
+        padding: 3vmin 18vmin;
+    }
+
+    footer .container .col-md-6{
+        padding-left: 10rem;
+    } 
+
+    footer p > span {
+      color: white;
+    }
+
+    footer input {
+      border: none !important;
+    }
+
+    footer input::placeholder {
+      color: white !important;
+    }
+
+    footer .input-group .input-group-text {
+      background: var(--bggradient);
+      border: none;
+    }
+
+    footer .column i {
+      color: white;
+    }
+
+    /* it is adjacent sibling combinator */
+
+    footer .column i + i {
+      padding: 0 0.5em;
+    }
+
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.815);
+      z-index: 9999;
+      transition: all 1.5s ease;
+    }
+    /* end footer area */ 
+}   
