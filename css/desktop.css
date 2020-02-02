@@ -315,15 +315,28 @@
         margin: 0;
     }
 
+    .site-main .quest4papa .concept{
+        height: 8em;
+        text-align: center;
+        padding-top: 5vh;
+        color: antiquewhite;
+        font-size: 1.5vw;
+    }
+
     .site-main .quest4papa iframe{
         width: 70vw;
         height: 35vw;
     }
 
     .site-main .quest4papa .role-area{
-        height: 6em;
         text-align: center;
         padding-top: 3vh;
+    }
+
+    .site-main .quest4papa .role-image > img{
+        text-align: center;
+        width: 30vw;
+        height: auto;
     }
 
     /* ===================== end quest4papa area ===================== */ 
