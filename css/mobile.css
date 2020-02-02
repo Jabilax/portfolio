@@ -13,7 +13,7 @@
         height: 100%;
     }
     
-    /* start navigation area */ 
+    /* ===================== start navigation area ===================== */ 
     header, section {
         /* overflow-x: hidden; */
     }
@@ -39,12 +39,12 @@
     header .nav-link:hover {
         color: black;
     }
-    /* end navigation area*/
+    /* ===================== end navigation area ===================== */
 
 
 
 
-    /* start top area */
+    /* ===================== start top area ===================== */
     header {
         background-image: url(../img/bg-header.jpg);
         background-size: 2000px;
@@ -107,12 +107,12 @@
         position: absolute;
         z-index: 0;
     }
-    /* end top area */ 
+    /* ===================== end top area ===================== */ 
 
 
 
 
-    /* start about area */ 
+    /* ===================== start about area ===================== */ 
     .site-main .about-area .container-fluid .row{
         padding: 12% 0%;
     }
@@ -135,15 +135,13 @@
     .site-main .about-area .about-title .paragraph > p{
         font: normal 14px / 18px var(--font);
     }
-
-
-    /* end about area */ 
+    /* ===================== end about area ===================== */ 
 
 
 
 
 
-    /* start games area */ 
+    /* ===================== start games area ===================== */ 
     .site-main .games-area {
         background: black;
         /* fallback for old browsers */
@@ -176,11 +174,11 @@
         box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
         text-align: center;
     }
-    /* end games area */ 
+    /* ===================== end games area ===================== */ 
 
 
 
-    /* start projects area */ 
+    /* ===================== start projects area ===================== */ 
     .site-main .projects-area {
 
     }
@@ -192,13 +190,13 @@
         margin: 0;
         font-weight: 600;
     }
-    /* end projects area */ 
+    /* ===================== end projects area ===================== */ 
 
 
 
 
 
-    /* start footer area */ 
+    /* ===================== start footer area ===================== */ 
     footer {
         background: rgba(0, 0, 0, 0.815);
         overflow-x: hidden;
@@ -226,5 +224,69 @@
       z-index: 9999;
       transition: all 1.5s ease;
     }
-    /* end footer area */ 
+    /* ===================== end footer area ===================== */ 
+
+
+
+    /* ===================== start quest4papa area ===================== */
+    header .quest4papa .game-image {
+        background-image: url(../img/ques4papa.png);
+        background-size: 800px;
+        background-position: center;
+        margin-right: 0;
+        margin-left: 0;
+        height: 20rem;
+    }
+
+    header .quest4papa a {
+        font-family: var(--font);
+        font-size: 16px;
+        color: white;
+    }
+    header .quest4papa .navbar-brand{
+        font-size: 1.5em;
+    }
+
+    header .quest4papa a:hover {
+        color: grey;
+    }
+
+    header .quest4papa {
+        font-family: var(--font);
+        background-image: url(../img/bg-games.jpg);
+        font-size: 0.9em;
+        color: white;
+    }
+
+    .site-main .quest4papa .game-area{
+        background: black;
+        background-image: url(../img/bg-games.jpg);
+        text-align: center;
+        color: white;
+        padding-bottom: 10vh;
+    }
+
+    .site-main .quest4papa .title{
+        padding: 2rem 0;
+        font-family: times, cursive;
+
+        background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: goldenrod;
+        text-transform: uppercase;
+
+        font-size: 40px;
+        letter-spacing: 0px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .site-main .quest4papa .role-area{
+        height: 8em;
+        text-align: center;
+        padding-top: 3vh;
+    }
+
+    /* ===================== end quest4papa area ===================== */ 
 }   
