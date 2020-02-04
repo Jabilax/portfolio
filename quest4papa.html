@@ -82,14 +82,16 @@
             </div>
           </div>
 
-          <iframe src="https://www.youtube.com/embed/hSlHh9BpyzE"> </iframe>
+          <div class="about-title col-lg-12 col-md-12">
+            <iframe src="https://www.youtube.com/embed/hSlHh9BpyzE"> </iframe>
+          </div>
 
           <div class="concept container-fluid">
-            <p class="para">
-              Lorem ipsum do+lor sit, amet consectetur adipisicing elit. Suscipit neque ea, 
-              maiores obcaecati blanditiis aspernatur quae nemo eius veritatis a fugiat 
-              omnis est recusandae modi alias dolorem eligendi deleniti, totam dolores.
-            </p>
+            <div class="about-title col-lg-12 col-md-12">
+              <p class="para">Quest 4 Papa is a 3D bullet-hell top down shooter. Made with Unreal Engine 4.</p> 
+              <p class="para">You play as Roach, a girl who makes a living by getting the pieces of old abandoned robots. </p>
+              <p class="para">Robots will have all sorts of guns and attack any strager who approaches them.</p>
+            </div>
             <!-- <a type="button" class="btn button primary-button text-uppercase" href="./Javier's Resume.pdf" download>Play game</a> -->
           </div>
 
@@ -102,25 +104,60 @@
       <section class="role-area">
         <div class="container" id="role">
           <div class="row">
-            <div class="role-title col-lg-6 col-md-12">
-              <h2 class="text-uppercase">My role as Tools Programmer</h2>
-              <p class="para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis molestias saepe 
-                natus nihil culpa veniam placeat omnis deleniti, eos minima? Ab fuga, incidunt maxime, 
-                repellat deleniti id beatae nesciunt necessitatibus blanditiis dolores voluptatem optio! 
-                Aliquam libero, molestiae minus repellendus reiciendis repudiandae soluta beatae, sapiente 
-                voluptatum magnam velit animi alias ullam!
-              </p>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">First item</li>
-                <li class="list-group-item">Second item</li>
-                <li class="list-group-item">Third item</li>
-                <li class="list-group-item">Fourth item</li>
-              </ul>
-            </div>
+              <div class="description col-lg-12 col-md-12">
+                <h2 class="role-title text-uppercase">My role as Tools Programmer</h2>          
+                <p class="para">
+                  During the development of Quest 4 Papa I focused on tools to make the game scope approchable. Working with artists,
+                  programmers and designers in the creation of dungeons, rooms and its interaction with the enemies. Here below are some of my main tasks.
+                  (This project is work in progress)
+                </p>
+              </div>
+              <div class="row"><h1></h1></div>
+              <div class="tasks">
+                <h1></h1>
+                <ul class="tasks list-group-flush">
+                  <li class="list-group-item">
+                    <h4>UE4 Dugeon Creator Plugin</h4> 
+                    <p>
+                      It creates a dungeon from a given image, following a color coding. You can specify which objects to place as walls, doors,
+                      ground etc. It will also use dynamic meshes to merge all floor tiles into a single mesh. (Same for roofs). After that, you can
+                      drag enemies in the rooms and everything will connect appropietly without any manual work.  
+                    </p>
+                    <div class="first-row row">
+                      <div class="image col-lg-4 col-md-4 col-md-12"><img src="./img/map.png" alt="Dungeon-File"/></div>
+                      <div class="image col-lg-4 col-md-4 col-md-12"><img src="./img/q4p-rooms.png" alt="Dungeon-Boxes"/></div>
+                      <div class="image col-lg-4 col-md-4 col-md-12"><img src="./img/q4p-map.png" alt="Dungeon-InGame"/></div>
+                    </div>
+                  </li>
 
-            <div class="role-image col-lg-6 col-md-12">
-              <img src="./img/digipen.jpg" alt="Portrait"/>
+                  <li class="list-group-item">
+                    <h4>Minimap and full size map</h4> 
+                    <p>
+                      Displays on the HUD the minimap of the dungeon and the icons of the wanted characters in real time.
+                      This is done by just adding a component to the wanted actor. It can also show the fullmap view.   
+                    </p>
+                    <div class="second-row row">
+                      <div class="image col-lg-6 col-md-6 col-md-12"><img src="./img/q4p-minimap.png" alt="Dungeon-File"/></div>
+                      <div class="image col-lg-6 col-md-6 col-md-12"><img src="./img/q4p-fullmap.png" alt="Dungeon-Boxes"/></div>
+                    </div>
+                  </li>
+
+
+                  <li class="list-group-item">
+                    <h4>Shaders and graphical effects</h4> 
+                    <p>
+                      I was in charge of the creation of some of the effects like opening the roofs when a player enters a room.
+                      Some post-processing like the outline shader. And general shader materials like the one used by the 
+                      bullets in the game.
+                    </p>
+                    <div class="second-row row">
+                      <div class="image col-lg-6 col-md-6 col-md-12"><img src="./img/open-roof.png" alt="Dungeon-File"/></div>
+                      <div class="image col-lg-6 col-md-6 col-md-12"><img src="./img/bullets.png" alt="Dungeon-Boxes"/></div>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
             </div>
           </div>
         </div>

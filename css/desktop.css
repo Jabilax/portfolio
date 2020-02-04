@@ -309,7 +309,7 @@
         color: goldenrod;
         text-transform: uppercase;
 
-        font-size: 120px;
+        font-size: 5vw;
         letter-spacing: 0px;
         font-weight: 400;
         margin: 0;
@@ -324,8 +324,8 @@
     }
 
     .site-main .quest4papa iframe{
-        width: 70vw;
-        height: 35vw;
+        width: 50vw;
+        height: 25vw;
     }
 
     .site-main .quest4papa .role-area{
@@ -333,10 +333,27 @@
         padding-top: 3vh;
     }
 
-    .site-main .quest4papa .role-image > img{
+    .site-main .quest4papa .list-group-item{
+        padding-top: 1vw;
+        padding-bottom: 2vw;
+    }
+
+    .site-main .quest4papa .list-group-item .first-row .image  > img{
         text-align: center;
-        width: 30vw;
+        width: 17vw;
         height: auto;
+        box-shadow: 0 0px 0px 0 black, 0 1px 4px 0 black;
+    }
+
+    .role-title{
+        padding: 2vh;
+    }
+
+    .site-main .quest4papa .list-group-item .second-row .image  > img{
+        text-align: center;
+        width: 26vw;
+        height: auto;
+        box-shadow: 0 0px 0px 0 black, 0 1px 4px 0 black;
     }
 
     /* ===================== end quest4papa area ===================== */ 
