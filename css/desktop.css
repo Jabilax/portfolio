@@ -211,10 +211,39 @@
 
     /* ===================== start projects area ===================== */ 
     .site-main .projects-area {
-
+        padding-bottom: 4rem;
+        background-color: whitesmoke;
     }
 
-    .site-main .projects-area .projects-title h2{
+    .site-main .projects-area .project-title h1{
+        font: normal bold 60px/ 60px var(--font);
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        letter-spacing: 5px;
+        margin: 0;
+        font-weight: 600;
+    }
+
+    .site-main .projects-area h4{
+        font: normal 20px/ 30px var(--font);
+        font-weight: 100;
+    }
+
+    .site-main .projects-area .img{
+        box-shadow: 0 0px 8px 0 black, 0 0px 0px 0 black;
+        text-align: center;
+    }
+    /* ===================== end projects area ===================== */ 
+
+
+
+
+    /* ===================== start message area ===================== */ 
+    .site-main .message-area {
+        background: rgb(202, 202, 202);
+    }
+
+    .site-main .message-area .message-title h2{
         font: normal bold 30px/ 60px var(--font);
         font-size: 30px/ 60px;
         padding: 4rem;
@@ -222,7 +251,7 @@
         margin: 0;
         font-weight: 600;
     }
-    /* ===================== end projects area ===================== */ 
+    /* ===================== end message area ===================== */ 
 
 
 
